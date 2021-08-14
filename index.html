@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <title>
+    Portfolio - Yohan BRITTI
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="./assets/css/soft-design-system-pro.min.css" rel="stylesheet" />
+</head>
+
+<body class="index-page">
+   <!-- Navbar -->
+  <div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <nav
+          class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+          <div class="container">
+            <a class="navbar-brand font-weight-bolder ms-sm-3" rel="tooltip" title="Bienvenue sur britti.fr" data-placement="bottom" target="_blank">
+             Yohan Britti
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+              <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a role="button" href="#Qui_Suis_Je" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+                    Qui suis-je ?
+                  </a>
+                  
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
+                    Formations
+                  </a>
+                  
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+                 Compétences
+                  </a>
+                  
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ils m'ont fait confiance
+                  </a>
+                  
+                </li>
+              </ul>
+              <ul class="navbar-nav d-lg-block d-none">
+                <li class="nav-item">
+                  <a href="#Me_Contacter" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Me contacter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="position-relative">
+    <div class="page-header min-vh-75 position-relative"
+      style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/nightsky.jpg');">
+      <span class="mask bg-gradient-dark"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center mx-auto mt-md-n7">
+            <h1 class="text-white fadeIn2 fadeInBottom">Yohan BRITTI</h1>
+            <p class="lead mb-5 fadeIn3 fadeInBottom text-white opacity-6">Travailler c'est bien, travailler en
+              s'amusant c'est mieux <i class="far fa-hand-peace"></i></p>
+              <a href="#Qui_Suis_Je" class="btn bg-white btn-rounded me-2 fadeIn1 fadeInBottom">Me découvrir</a>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/img/illustrations/man-rocket.png"
+        class="rellax position-absolute floating-man ms-7 fadeIn1 fadeInBottom mt-n10 d-none d-sm-none d-md-none d-lg-block"
+        data-rellax-speed="-4" alt="" style="transform: translate3d(0px, 0px, 0px);">
+      <img src="./assets/img/illustrations/man-cloud.png"
+        class="rellax position-absolute floating-man end-0 fadeIn3 fadeInBottom me-8 mt-10 d-none d-sm-none d-md-none d-lg-block z-index-2"
+        data-rellax-speed="7" alt="" style="transform: translate3d(0px, 0px, 0px);">
+      <div class="position-absolute w-100 z-index-1 bottom-0">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+          </defs>
+          <g class="moving-waves">
+            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40"></use>
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)"></use>
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,1"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <!-- Qui suis je -->
+  <section class=" pt-5 position-relative" id="Qui_Suis_Je">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mx-auto">
+          <div class="row py-lg-7 py-5">
+            <div class="col-lg-3 col-md-5 position-relative my-auto">
+              <img class="img border-radius-lg max-width-200 w-100 position-relative z-index-2"
+                src="./assets/img/britti2.jpeg" alt="Yohan Britti">
+            </div>
+            <div class="col-lg-7 col-md-7 z-index-2 position-relative px-md-2 px-sm-5 mt-sm-0 mt-4">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h4 class="mb-0">Yohan Britti</h4>
+                <div class="d-block">
+                  <a href="#Me_Contacter" class="btn btn-sm btn-outline-primary text-nowrap mb-0">Me contacter</a>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <span class="h6">23</span>
+                  <span>Ans</span>
+                </div>
+                <div class="col-auto">
+                  <span class="h6">5</span>
+                  <span>Années d'experience</span>
+                </div>
+              </div>
+              <p class="text-lg mb-0">
+                Decisions: If you can’t decide, the answer is no.
+                If two equally difficult paths, choose the one more
+                painful in the short term (pain avoidance is creating
+                an illusion of equality). Choose the path that leaves
+                you more equanimous. <br><a href="#Details" class="text-primary icon-move-right">A propos de moi
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-9" id="Details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="text-gradient text-primary mb-0">
+            En savoir plus sur moi</h3>
+          <h3>Le plus important</h3>
+        </div>
+        <div class="col-lg-3 mt-lg-0 mt-5 ps-lg-0 ps-0">
+          <div class="p-3 mb-4 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-birthday-cake opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Né le 31 Janvier 1998</p>
+            </div>
+          </div>
+  
+          <div class="p-3 mb-4 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-language opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Français, Anglais, Espagnol</p>
+            </div>
+          </div>
+          <div class="p-3 mb-4 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-car opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Permis B</p>
+            </div>
+          </div>
+          <div class="p-3 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-anchor opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Permis Côtier + Fluvial</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-lg-0 mt-5 ps-lg-0 ps-0">
+          <div class="p-3 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-school opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Bac +4 Expert Réseaux Infrastructures et Sécurité (ERIS) en alternance</p>
+            </div>
+          </div>
+  
+          <div class="p-3 info-horizontal">
+            <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
+              <i class="fas fa-check opacity-10"></i>
+            </div>
+            <div class="description ps-3 mt-2">
+              <p class="mb-0">Bac +3 Concepteur de Système d'information en alternance <br>
+
+                BTS Sio option Solutions d'Infratructure Systèmes et Réseaux <br>
+                
+                Bac Sti2d option Système d'Information Numérique</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Formations -->
+<section class="pb-6">
+  <div class="container">
+    <div class="row text-start">
+      <div class="col-lg-6">
+        <h3 class="mt-4">
+          <span class="text-gradient text-primary">Mes formations</span>
+        </h3>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-lg-4 mb-lg-0 mb-4">
+        <!-- Start Card Blog Fullbackground - text centered -->
+        <a href="javascript:;">
+          <div class="card card-background move-on-hover">
+            <div class="full-background" style="background-image: url('./assets/img/Formations/LaMache.jfif')"></div>
+            <div class="card-body pt-12">
+              <h4 class="text-white">Ecole La Mache</h4>
+              <p>2015 - 2017 <br> <strong> BAC STI2D </strong>
+                Option Système d'Information Numérique <br> BAC mention Bien</p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card Blog Fullbackground - text centered -->
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-4">
+        <!-- Start Card Blog Fullbackground - text centered -->
+        <a href="javascript:;">
+          <div class="card card-background move-on-hover">
+            <div class="full-background" style="background-image: url('./assets/img/Formations/icof.jpg')"></div>
+            <div class="card-body pt-12">
+              <h4 class="text-white">ICOF Lyon</h4>
+              <p> 2017 - 2019 <br>
+                BTS Services Informatiques aux Organisations
+                option Solutions d'Infratructure Systèmes et Réseaux</p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card Blog Fullbackground - text centered -->
+      </div>
+      <div class="col-lg-4">
+        <!-- Start Card Blog Fullbackground - text centered -->
+        <a href="javascript:;">
+          <div class="card card-background move-on-hover">
+            <div class="full-background" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-flats.jpg')"></div>
+            <div class="card-body pt-12">
+              <h4 class="text-white">Grow in a beautiful area</h4>
+              <p>Free people make free choices. Free choices mean you get unequal outcomes. You can have freedom, or you can have equal outcomes. You can’t have both.</p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card Blog Fullbackground - text centered -->
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Qui je travaille -->
+  <section class="bg-gradient-secondary position-relative overflow-hidden" id="Confiance">
+    <img src="./assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute opacity-6">
+    <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+      <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-down</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g fill="#FFFFFF" fill-rule="nonzero">
+            <g id="wave-down">
+              <path
+                d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z"
+                id="Path-Copy-2"
+                transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) ">
+              </path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="container py-lg-10 py-7">
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center flex-column">
+          <div id="carouselExampleIndicator" class="carousel slide py-7" data-bs-ride="carousel">
+            <div class="carousel-indicators justify-content-start ms-0">
+              <a href="javascript:;">
+                <img src="./assets/img/coworkers/estelle.jpg" alt="Estelle Ronchetti" class="avatar avatar-sm avatar-scale-up shadow border-0"
+                  data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0">
+                <span class="text-white mx-2">|</span>
+              </a>
+              <a href="javascript:;">
+                <img src="./assets/img/coworkers/clara.png" alt="Clara Gallin"
+                  class="avatar avatar-sm avatar-scale-up shadow border-0 active"
+                  data-bs-target="#carouselExampleIndicator" data-bs-slide-to="1" aria-current="true">
+                <span class="text-white mx-2">|</span>
+              </a>
+              <a href="javascript:;">
+                <img src="./assets/img/coworkers/agnes.png" alt="..." class="avatar avatar-sm avatar-scale-up shadow border-0"
+                  data-bs-target="#carouselExampleIndicator" data-bs-slide-to="2">
+              </a>
+            </div>
+            <div class="carousel-inner">
+              <h2 class="text-white mb-0">Ils m'ont fait confiance</h2>
+              <p class="text-white opacity-8 mb-1">Entreprises avec lesquelles j'ai eu la chance de travailler</p>
+              <hr class="text-white horizontal opacity-6 mb-4 mt-2 w-25 text-start">
+              <div class="carousel-item">
+                <h6 class="text-white opacity-8 pe-5">"Que dire de ce jeune homme plein d'énergie à part insister sur sa capacité
+                  d'adaptation, sa motivation , son implication et surtout sa maturité malgré son
+                  jeune âge. En effet, du haut de ses 21 ans il a su prendre la responsabilité
+                  d'encadrer des équipes lors de nos événements ( match FDJ, Fêtes des
+                  Lumières, Fêtes de Bayonne....). <br/>
+                  Yohan a pris à cœur toutes les missions confiées et a su nous montrer sa
+                  volonté d'évoluer. <br/>
+                <div class="author mt-4">
+                  <div class="name">
+                    <span class="text-white">Estelle Ronchetti</span>
+                    <div class="stats">
+                      <small class="text-white opacity-6">Directrice de filiale, Byblos Group</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <h6 class="text-white opacity-8 pe-5">"Yohan a un charisme et une autorité naturelle qui ne laissent en rien
+                  transparaitre son jeune âge. Professionnel, rigoureux, dévoué ; en un rien
+                  de temps il a su s'intégrer comme membre de l’équipe à part entière. Un
+                  avenir prometteur en management lui tend les bras. C'est un réel plaisir
+                  de travailler avec lui, c'est une personne sur qui on peut s'appuyer."</h6>
+                <div class="author mt-4">
+                  <div class="name">
+                    <span class="text-white">Clara Gallin</span>
+                    <div class="stats">
+                      <small class="text-white opacity-6">Chargée d'exploitation, Byblos Shine</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h6 class="text-white opacity-8 pe-5">"Très engagé dans son travail, Yohan a su mettre à profit ses
+                  compétences pour réaliser les missions confiées par Aldes. Il a
+                  su également progresser au contact de ses collègues.
+                  Yohan dispose d'un relationnel exceptionnel, et du sens du
+                  client."</h6>
+                <div class="author mt-4">
+                  <div class="name">
+                    <span class="text-white">Agnès Gagnepain</span>
+                    <div class="stats">
+                      <small class="text-white opacity-6"> Responsable de projet, Aldes</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 justify-content-center flex-column d-sm-none d-md-none d-lg-flex d-xl-flex">
+          <div class="row justify-content-center d-none d-md-flex">
+            <div class="col-3 mb-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mt-n4 ms-8 fadeIn2 fadeInBottom">
+                <img src="./assets/img/logos/small-logos/onet.png" alt="Logo Image">
+              </div>
+            </div>
+            <div class="col-4 mb-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-8 mt-n6 fadeIn1 fadeInBottom">
+                <img src="./assets/img/logos/small-logos/logo-slack.svg" alt="Logo Image">
+              </div>
+            </div>
+            <div class="col-4 mb-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-6 mt-2 fadeIn3 fadeInBottom">
+                <img src="./assets/img/logos/small-logos/logo-google-drive.svg" alt="Logo Image">
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end d-none d-md-flex">
+            <div class="col-4 my-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-4 fadeIn1 fadeInBottom">
+                <img class="avatar-img" src="./assets/img/logos/small-logos/Orange_logo.svg" alt="Logo Image">
+              </div>
+            </div>
+            <div class="col-3 my-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 me-auto fadeIn1 fadeInBottom">
+                <img class="avatar-img" src="./assets/img/logos/small-logos/byblos.png" alt="Logo Image">
+              </div>
+            </div>
+            <div class="col-3 my-4">
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 fadeIn3 fadeInBottom ms-3 mt-3">
+                <img class="avatar-img" src="./assets/img/logos/small-logos/aldes.jpg" alt="Logo Image">
+              </div>
+            </div>
+          </div>
+          <div class="row d-none d-md-flex">
+            <div class="col-6">
+              <!-- Logo -->
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-auto mt-5 fadeIn2 fadeInBottom">
+                <img class="avatar-img" src="./assets/img/logos/small-logos/logo-atlassian.svg" alt="Logo Image">
+              </div>
+              <!-- End Logo -->
+            </div>
+            <div class="col-6 mt-6">
+              <!-- Logo -->
+              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mx-auto mt-n3 fadeIn3 fadeInBottom">
+                <img class="avatar-img" src="./assets/img/logos/small-logos/quebes.png" alt="Logo Image">
+              </div>
+              <!-- End Logo -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="position-absolute w-100 bottom-0">
+      <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-up</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="wave-up" transform="translate(0.000000, -5.000000)">
+              <path
+                d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z">
+              </path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="py-lg-7" id="Me_Contacter">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card overflow-hidden mb-5">
+            <div class="row">
+              <div class="col-lg-7">
+                <form class="p-3" id="contact-form" method="post">
+                  <div class="card-header px-4 py-sm-5 py-3">
+                    <h2>Me contacter</h2>
+                  </div>
+                  <div class="card-body pt-1">
+                    <div class="row">
+                      <div class="col-md-12 pe-2 mb-3">
+                        <label>Mon nom est</label>
+                        <input class="form-control" placeholder="Nom complet" type="text">
+                      </div>
+                      <div class="col-md-12 pe-2 mb-3">
+                        <label>Sujet</label>
+                        <input class="form-control" placeholder="Ce que j'aimerais" type="text">
+                      </div>
+                      <div class="col-md-12 pe-2 mb-3">
+                        <div class="form-group mb-0">
+                          <label>Votre message</label>
+                          <textarea name="message" class="form-control" id="message" rows="6" placeholder="Ce que je voudrais vous dire..."></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 text-end ms-auto">
+                        <button type="submit" class="btn btn-round bg-gradient-primary mb-0">Envoyer Message</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-5 position-relative bg-cover px-0" style="background-image: url('./assets/img/curved-images/curved5.jpg')">
+                <div class="position-absolute z-index-2 w-100 h-100 top-0 start-0 d-lg-block d-none">
+                  <img src="./assets/img/wave-1.svg" class="h-100 ms-n2" alt="vertical-wave">
+                </div>
+                <div class="z-index-2 text-center d-flex h-100 w-100 d-flex m-auto justify-content-center">
+                  <div class="mask bg-gradient-primary opacity-9"></div>
+                  <div class="p-5 ps-sm-8 position-relative text-start my-auto z-index-2">
+                    <h3 class="text-white">Informations</h3>
+                    <p class="text-white opacity-8 mb-4">Remplissez ce formulaire pour me contacter</p>
+                    <div class="d-flex p-2 text-white">
+                      <div>
+                        <i class="fas fa-phone text-sm" aria-hidden="true"></i>
+                      </div>
+                      <div class="ps-3">
+                        <span class="text-sm opacity-8">(+33) 7 81 08 84 00</span>
+                      </div>
+                    </div>
+                    <div class="d-flex p-2 text-white">
+                      <div>
+                        <i class="fas fa-envelope text-sm" aria-hidden="true"></i>
+                      </div>
+                      <div class="ps-3">
+                        <span class="text-sm opacity-8">britti.yohan@yahoo.fr</span>
+                      </div>
+                    </div>
+                    <div class="d-flex p-2 text-white">
+                      <div>
+                        <i class="fas fa-map-marker-alt text-sm" aria-hidden="true"></i>
+                      </div>
+                      <div class="ps-3">
+                        <span class="text-sm opacity-8">Lyon, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="" ./assets/js/plugins/perfect-scrollbar.min.js"" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+
+
+  <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js"></script>
+
+  <!--  Plugin for the Carousel, full documentation here: http://jedrzejchalubek.com/  -->
+  <script src="./assets/js/plugins/glidejs.min.js"></script>
+
+  <!--	Plugin for Select, full documentation here: https://joshuajohnson.co.uk/Choices/ -->
+  <script src="./assets/js/plugins/choices.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/rellax.min.js" type="text/javascript"></script>
+
+
+  <!--  Google Maps Plugin    -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+  <!-- Control Center for Soft UI Design System: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/soft-design-system-pro.min.js" type="text/javascript"></script>
+</body>
+
+</html>
