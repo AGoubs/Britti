@@ -22,62 +22,66 @@
 </head>
 
 <body class="index-page">
-   <!-- Navbar -->
-  <div class="container position-sticky z-index-sticky top-0">
-    <div class="row">
-      <div class="col-12">
-        <nav
-          class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-          <div class="container">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" rel="tooltip" title="Bienvenue sur britti.fr" data-placement="bottom" target="_blank">
-             Yohan Britti
-            </a>
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon mt-2">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </span>
-            </button>
-            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-              <ul class="navbar-nav navbar-nav-hover mx-auto">
-                <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a role="button" href="#Qui_Suis_Je" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
-                    Qui suis-je ?
-                  </a>
-                  
-                </li>
-                <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
-                    Formations
-                  </a>
-                  
-                </li>
-                <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
-                 Compétences
-                  </a>
-                  
-                </li>
-                <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-                    Ils m'ont fait confiance
-                  </a>
-                  
-                </li>
-              </ul>
-              <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item">
-                  <a href="#Me_Contacter" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Me contacter</a>
-                </li>
-              </ul>
-            </div>
+  <!-- Navbar -->
+  <div class="row">
+    <div class="col-12">
+      <nav
+        class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+        <div class="container">
+          <a class="navbar-brand font-weight-bolder ms-sm-3 text-white" rel="tooltip" title="Bienvenue sur britti.fr"
+            data-placement="bottom" target="_blank">
+            Yohan Britti
+          </a>
+          <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mt-2">
+              <span class="navbar-toggler-bar bar1"></span>
+              <span class="navbar-toggler-bar bar2"></span>
+              <span class="navbar-toggler-bar bar3"></span>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a role="button" href="#Qui_Suis_Je"
+                  class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+                  Qui suis-je ?
+                </a>
+
+              </li>
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                  id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
+                  Formations
+                </a>
+
+              </li>
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                  id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+                  Compétences
+                </a>
+
+              </li>
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                  id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ils m'ont fait confiance
+                </a>
+
+              </li>
+            </ul>
+            <ul class="navbar-nav d-lg-block d-none">
+              <li class="nav-item">
+                <a href="#Me_Contacter" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1"
+                  onclick="smoothToPricing('pricing-soft-ui')">Me contacter</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <!-- End Navbar -->
-      </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
     </div>
   </div>
 
@@ -89,10 +93,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center mx-auto mt-md-n7">
-            <h1 class="text-white fadeIn2 fadeInBottom">Yohan BRITTI</h1>
+            <h1 class="text-white fadeIn2 fadeInBottom"><span id="typed"></span>Yohan BRITTI</h1>
+
             <p class="lead mb-5 fadeIn3 fadeInBottom text-white opacity-6">Travailler c'est bien, travailler en
               s'amusant c'est mieux <i class="far fa-hand-peace"></i></p>
-              <a href="#Qui_Suis_Je" class="btn bg-white btn-rounded me-2 fadeIn1 fadeInBottom">Me découvrir</a>
+            <a href="#Qui_Suis_Je" class="btn bg-white btn-rounded me-2 fadeIn1 fadeInBottom">Me découvrir</a>
           </div>
         </div>
       </div>
@@ -179,7 +184,7 @@
               <p class="mb-0">Né le 31 Janvier 1998</p>
             </div>
           </div>
-  
+
           <div class="p-3 mb-4 info-horizontal">
             <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
               <i class="fas fa-language opacity-10"></i>
@@ -214,7 +219,7 @@
               <p class="mb-0">Bac +4 Expert Réseaux Infrastructures et Sécurité (ERIS) en alternance</p>
             </div>
           </div>
-  
+
           <div class="p-3 info-horizontal">
             <div class="icon icon-shape rounded-circle bg-gradient-primary shadow text-center">
               <i class="fas fa-check opacity-10"></i>
@@ -223,73 +228,77 @@
               <p class="mb-0">Bac +3 Concepteur de Système d'information en alternance <br>
 
                 BTS Sio option Solutions d'Infratructure Systèmes et Réseaux <br>
-                
+
                 Bac Sti2d option Système d'Information Numérique</p>
             </div>
           </div>
-         
+
         </div>
       </div>
     </div>
   </section>
-<!-- Formations -->
-<section class="pb-6">
-  <div class="container">
-    <div class="row text-start">
-      <div class="col-lg-6">
-        <h3 class="mt-4">
-          <span class="text-gradient text-primary">Mes formations</span>
-        </h3>
+  <!-- Formations -->
+  <section class="pb-6">
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-lg-6">
+          <h3 class="mt-4">
+            <span class="text-gradient text-primary">Mes formations</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-4 mb-lg-0 mb-4">
+          <!-- Start Card Blog Fullbackground - text centered -->
+          <a href="javascript:;">
+            <div class="card card-background move-on-hover">
+              <div class="full-background" style="background-image: url('./assets/img/Formations/LaMache.jfif')"></div>
+              <div class="card-body pt-12">
+                <h4 class="text-white">Ecole La Mache</h4>
+                <p>2015 - 2017 <br> <strong> BAC STI2D </strong>
+                  Option Système d'Information Numérique <br> BAC mention Bien</p>
+              </div>
+            </div>
+          </a>
+          <!-- End Card Blog Fullbackground - text centered -->
+        </div>
+        <div class="col-lg-4 mb-lg-0 mb-4">
+          <!-- Start Card Blog Fullbackground - text centered -->
+          <a href="javascript:;">
+            <div class="card card-background move-on-hover">
+              <div class="full-background" style="background-image: url('./assets/img/Formations/icof.jpg')"></div>
+              <div class="card-body pt-12">
+                <h4 class="text-white">ICOF Lyon</h4>
+                <p> 2017 - 2019 <br>
+                  <strong> BTS Services Informatiques aux Organisations</strong>
+                  option Solutions d'Infratructure Systèmes et Réseaux
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- End Card Blog Fullbackground - text centered -->
+        </div>
+        <div class="col-lg-4">
+          <!-- Start Card Blog Fullbackground - text centered -->
+          <a href="javascript:;">
+            <div class="card card-background move-on-hover">
+              <div class="full-background" style="background-image: url('./assets/img/Formations/ORT.png')"></div>
+              <div class="card-body pt-12">
+                <h4 class="text-white">ORT Lyon</h4>
+                <p>2019 - Aujourd'hui <br>
+                  <strong> Bac +4 </strong>Expert Réseaux Infrastructures et Sécurité (ERIS) <br>
+                  <strong> Bac +3 </strong>Concepteur de Systèmes d'Information
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- End Card Blog Fullbackground - text centered -->
+        </div>
       </div>
     </div>
-    <div class="row mt-3">
-      <div class="col-lg-4 mb-lg-0 mb-4">
-        <!-- Start Card Blog Fullbackground - text centered -->
-        <a href="javascript:;">
-          <div class="card card-background move-on-hover">
-            <div class="full-background" style="background-image: url('./assets/img/Formations/LaMache.jfif')"></div>
-            <div class="card-body pt-12">
-              <h4 class="text-white">Ecole La Mache</h4>
-              <p>2015 - 2017 <br> <strong> BAC STI2D </strong>
-                Option Système d'Information Numérique <br> BAC mention Bien</p>
-            </div>
-          </div>
-        </a>
-        <!-- End Card Blog Fullbackground - text centered -->
-      </div>
-      <div class="col-lg-4 mb-lg-0 mb-4">
-        <!-- Start Card Blog Fullbackground - text centered -->
-        <a href="javascript:;">
-          <div class="card card-background move-on-hover">
-            <div class="full-background" style="background-image: url('./assets/img/Formations/icof.jpg')"></div>
-            <div class="card-body pt-12">
-              <h4 class="text-white">ICOF Lyon</h4>
-              <p> 2017 - 2019 <br>
-                BTS Services Informatiques aux Organisations
-                option Solutions d'Infratructure Systèmes et Réseaux</p>
-            </div>
-          </div>
-        </a>
-        <!-- End Card Blog Fullbackground - text centered -->
-      </div>
-      <div class="col-lg-4">
-        <!-- Start Card Blog Fullbackground - text centered -->
-        <a href="javascript:;">
-          <div class="card card-background move-on-hover">
-            <div class="full-background" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-flats.jpg')"></div>
-            <div class="card-body pt-12">
-              <h4 class="text-white">Grow in a beautiful area</h4>
-              <p>Free people make free choices. Free choices mean you get unequal outcomes. You can have freedom, or you can have equal outcomes. You can’t have both.</p>
-            </div>
-          </div>
-        </a>
-        <!-- End Card Blog Fullbackground - text centered -->
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
   <!-- Qui je travaille -->
-  <section class="bg-gradient-secondary position-relative overflow-hidden" id="Confiance">
+  <section class="bg-gradient-primary position-relative overflow-hidden" id="Confiance">
     <img src="./assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute opacity-6">
     <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
       <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -314,8 +323,9 @@
           <div id="carouselExampleIndicator" class="carousel slide py-7" data-bs-ride="carousel">
             <div class="carousel-indicators justify-content-start ms-0">
               <a href="javascript:;">
-                <img src="./assets/img/coworkers/estelle.jpg" alt="Estelle Ronchetti" class="avatar avatar-sm avatar-scale-up shadow border-0"
-                  data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0">
+                <img src="./assets/img/coworkers/estelle.jpg" alt="Estelle Ronchetti"
+                  class="avatar avatar-sm avatar-scale-up shadow border-0" data-bs-target="#carouselExampleIndicator"
+                  data-bs-slide-to="0">
                 <span class="text-white mx-2">|</span>
               </a>
               <a href="javascript:;">
@@ -325,8 +335,9 @@
                 <span class="text-white mx-2">|</span>
               </a>
               <a href="javascript:;">
-                <img src="./assets/img/coworkers/agnes.png" alt="..." class="avatar avatar-sm avatar-scale-up shadow border-0"
-                  data-bs-target="#carouselExampleIndicator" data-bs-slide-to="2">
+                <img src="./assets/img/coworkers/agnes.png" alt="..."
+                  class="avatar avatar-sm avatar-scale-up shadow border-0" data-bs-target="#carouselExampleIndicator"
+                  data-bs-slide-to="2">
               </a>
             </div>
             <div class="carousel-inner">
@@ -334,28 +345,30 @@
               <p class="text-white opacity-8 mb-1">Entreprises avec lesquelles j'ai eu la chance de travailler</p>
               <hr class="text-white horizontal opacity-6 mb-4 mt-2 w-25 text-start">
               <div class="carousel-item">
-                <h6 class="text-white opacity-8 pe-5">"Que dire de ce jeune homme plein d'énergie à part insister sur sa capacité
+                <h6 class="text-white opacity-8 pe-5">"Que dire de ce jeune homme plein d'énergie à part insister sur sa
+                  capacité
                   d'adaptation, sa motivation , son implication et surtout sa maturité malgré son
                   jeune âge. En effet, du haut de ses 21 ans il a su prendre la responsabilité
                   d'encadrer des équipes lors de nos événements ( match FDJ, Fêtes des
-                  Lumières, Fêtes de Bayonne....). <br/>
+                  Lumières, Fêtes de Bayonne....). <br />
                   Yohan a pris à cœur toutes les missions confiées et a su nous montrer sa
-                  volonté d'évoluer. <br/>
-                <div class="author mt-4">
-                  <div class="name">
-                    <span class="text-white">Estelle Ronchetti</span>
-                    <div class="stats">
-                      <small class="text-white opacity-6">Directrice de filiale, Byblos Group</small>
+                  volonté d'évoluer. <br />
+                  <div class="author mt-4">
+                    <div class="name">
+                      <span class="text-white">Estelle Ronchetti</span>
+                      <div class="stats">
+                        <small class="text-white opacity-6">Directrice de filiale, Byblos Group</small>
+                      </div>
                     </div>
                   </div>
-                </div>
               </div>
               <div class="carousel-item active">
-                <h6 class="text-white opacity-8 pe-5">"Yohan a un charisme et une autorité naturelle qui ne laissent en rien
+                <h6 class="text-white opacity-8 pe-5">"Yohan a un charisme et une autorité naturelle qui ne laissent en
+                  rien
                   transparaitre son jeune âge. Professionnel, rigoureux, dévoué ; en un rien
                   de temps il a su s'intégrer comme membre de l’équipe à part entière. Un
                   avenir prometteur en management lui tend les bras. C'est un réel plaisir
-                  de travailler avec lui, c'est une personne sur qui on peut s'appuyer."</h6>
+                  de travailler avec lui, c'est une personne sur qui on peut s'appuyer."<br /><br /><br /></h6>
                 <div class="author mt-4">
                   <div class="name">
                     <span class="text-white">Clara Gallin</span>
@@ -370,7 +383,7 @@
                   compétences pour réaliser les missions confiées par Aldes. Il a
                   su également progresser au contact de ses collègues.
                   Yohan dispose d'un relationnel exceptionnel, et du sens du
-                  client."</h6>
+                  client."<br /><br /><br /><br /></h6>
                 <div class="author mt-4">
                   <div class="name">
                     <span class="text-white">Agnès Gagnepain</span>
@@ -453,9 +466,76 @@
       </svg>
     </div>
   </section>
+  <section class="py-lg-7 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Get your own app</h2>
+          <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>
+        </div>
+        <div class="col-lg-6 text-end d-flex flex-column justify-content-center">
+          <button type="button" class="btn bg-gradient-info mb-0 ms-lg-auto me-lg-0 me-auto mt-lg-0 mt-2">Contact Us</button>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/Orange_logo.svg" alt="Orange">
+          <h5>Expert Solutions (Alternance)</h5>
+          <p class="text-sm">Cela me permet de continuer à développer des compétences techniques et d'approfondir mon expérience acquise au SAV.</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/Orange_logo.svg" alt="Orange_alt">
+          <h5>Technicien SAV (Alternance)</h5>
+          <p class="text-sm">J'ai pu développer des compétences techniques notamment sur la technologie numéris, sur le wan, le BTIC et le BTIP. Cette alternance m'a permis d'améliorer ma relation client.</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/byblos.png" alt="byblos">
+          <h5>Byblos Shine</h5>
+          <p class="text-sm">Byblos m'a permis de développer des compétences en management, relationnel client, gestion de l'humain... en me confiant des responsabilités de chef hôte(sse).</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/logo-invision.svg" alt="invision">
+          <h5>Digital Product Design</h5>
+          <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and people happier.</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/logo-slack.svg" alt="slack">
+          <h5>Better Communication</h5>
+          <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and people happier.</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+          <img class="width-48-px mb-3" src="./assets/img/logos/small-logos/logo-webdev.svg" alt="webdev">
+          <h5>Logo design</h5>
+          <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and people happier.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pt-2 pb-6" id="count-stats">
+    <div class="container">
+      <!-- <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-3">
+          <h1 class="text-gradient text-info"><span id="state1" countto="95">95</span>%</h1>
+          <h5>Travail en équipe</h5>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-gradient text-info"><span id="state2" countto="85">85</span>%</h1>
+          <h5>Management, organisation</h5>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-gradient text-info"><span id="state3" countto="85">85</span>%</h1>
+          <h5>Entrepreneur</h5>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-gradient text-info"><span id="state4" countto="80">80</span>%</h1>
+          <h5>Autonome, responsable</h5>
+        </div>
+      </div> -->
+    </div>
+  </section>
   <!-- Contact -->
   <section class="py-lg-7" id="Me_Contacter">
-    <div class="container">
+    <div class="container pt-5">
       <div class="row">
         <div class="col">
           <div class="card overflow-hidden mb-5">
@@ -478,7 +558,8 @@
                       <div class="col-md-12 pe-2 mb-3">
                         <div class="form-group mb-0">
                           <label>Votre message</label>
-                          <textarea name="message" class="form-control" id="message" rows="6" placeholder="Ce que je voudrais vous dire..."></textarea>
+                          <textarea name="message" class="form-control" id="message" rows="6"
+                            placeholder="Ce que je voudrais vous dire..."></textarea>
                         </div>
                       </div>
                     </div>
@@ -490,7 +571,8 @@
                   </div>
                 </form>
               </div>
-              <div class="col-lg-5 position-relative bg-cover px-0" style="background-image: url('./assets/img/curved-images/curved5.jpg')">
+              <div class="col-lg-5 position-relative bg-cover px-0"
+                style="background-image: url('./assets/img/curved-images/curved5.jpg')">
                 <div class="position-absolute z-index-2 w-100 h-100 top-0 start-0 d-lg-block d-none">
                   <img src="./assets/img/wave-1.svg" class="h-100 ms-n2" alt="vertical-wave">
                 </div>
@@ -539,22 +621,48 @@
   <script src="./assets/js/plugins/moment.min.js"></script>
 
 
-  <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js"></script>
-
-  <!--  Plugin for the Carousel, full documentation here: http://jedrzejchalubek.com/  -->
-  <script src="./assets/js/plugins/glidejs.min.js"></script>
-
   <!--	Plugin for Select, full documentation here: https://joshuajohnson.co.uk/Choices/ -->
   <script src="./assets/js/plugins/choices.min.js" type="text/javascript"></script>
   <script src="./assets/js/plugins/rellax.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/countup.min.js" type="text/javascript"></script>
 
-
-  <!--  Google Maps Plugin    -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
   <!-- Control Center for Soft UI Design System: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/soft-design-system-pro.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById("state1")) {
+      const countUp = new CountUp("state1", document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById("state2")) {
+      const countUp1 = new CountUp("state2", document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById("state3")) {
+      const countUp2 = new CountUp("state3", document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+    if (document.getElementById("state4")) {
+      const countUp3 = new CountUp("state4", document.getElementById("state4").getAttribute("countTo"));
+      if (!countUp3.error) {
+        countUp3.start();
+      } else {
+        console.error(countUp3.error);
+      };
+    }
+  </script>
 </body>
 
 </html>
